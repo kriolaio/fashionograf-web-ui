@@ -4,10 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriolaio/fashionograf-web-ui.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kriolaio/fashionograf-web-ui/issues"
+  },
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
