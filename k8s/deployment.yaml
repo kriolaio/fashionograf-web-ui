@@ -1,0 +1,37 @@
+
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: fashionograf-web-ui-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      name: fashionograf-web-ui
+      labels:
+        app: fashionograf-web-ui
+    spec:
+      containers:
+      - image: kriola/fashionograf-web-ui:a83198a
+        name:  fashionograf-web-ui-container
+        ports:
+        - containerPort: 80
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
