@@ -1,0 +1,17 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: fashionograf-crt
+spec:
+  secretName: fashionograf-crt
+  dnsNames:
+  - www.fashionograf.com
+  acme:
+    config:
+    - http01:
+        ingressClass: nginx
+      domains:
+      - www.fashionograf.com
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer
