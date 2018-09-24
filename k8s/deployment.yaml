@@ -12,7 +12,7 @@ spec:
         app: fashionograf-web-ui
     spec:
       containers:
-      - image: kriola/fashionograf-web-ui:a83198a
+      - image: kriola/fashionograf-web-ui:406b50b
         name:  fashionograf-web-ui-container
         ports:
         - containerPort: 80
