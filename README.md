@@ -5,7 +5,7 @@
 
 
 
-How To Deploy Fashionograf
+    How To Deploy Fashionograf
     1-  Setup Ingress Controller
         https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md
 
