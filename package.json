@@ -20,8 +20,11 @@
     "url": "https://github.com/kriolaio/fashionograf-web-ui/issues"
   },
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "apollo-boost": "^0.1.16",
+    "graphql": "^14.0.2",
+    "react": "^16.5.2",
+    "react-apollo": "^2.1.11",
+    "react-dom": "^16.5.2",
     "react-scripts": "^1.1.5"
   },
   "devDependencies": {
