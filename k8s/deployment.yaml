@@ -1,4 +1,3 @@
-
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
@@ -12,26 +11,8 @@ spec:
         app: fashionograf-web-ui
     spec:
       containers:
-      - image: kriola/fashionograf-web-ui:406b50b
-        name:  fashionograf-web-ui-container
-        ports:
-        - containerPort: 80
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        - image: kriola/fashionograf-web-ui:97adadc
+          imagePullPolicy: Always
+          name: fashionograf-web-ui-container
+          ports:
+            - containerPort: 80
